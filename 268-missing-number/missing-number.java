@@ -19,7 +19,7 @@ class Solution {
         }
         return nums.length;
     }
-    static void swap(int[] arr, int i, int correctIndex) {
+     void swap(int[] arr, int i, int correctIndex) {
         int temp = arr[i];
         arr[i] = arr[correctIndex];
         arr[correctIndex] = temp;
